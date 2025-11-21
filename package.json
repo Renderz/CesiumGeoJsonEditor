@@ -1,0 +1,22 @@
+{
+  "name": "cesium-geojson-editor",
+  "version": "0.0.1",
+  "description": "GeoJSON Editor based on Cesium",
+  "author": {
+    "name": "Renderz",
+    "email": "464816158@qq.com",
+    "url": "https://github.com/Renderz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Renderz/CesiumGeoJsonEditor"
+  },
+  "main": "index.js",
+  "keywords": [
+    "cesium",
+    "geojson",
+    "editor",
+    "tianditu"
+  ],
+  "license": "MIT"
+}
