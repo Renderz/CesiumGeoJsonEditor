@@ -1,0 +1,29 @@
+# common
+node_modules
+*/dist
+dist
+**.*.zip
+**.*.tar
+**.*.tar.gz
+.DS_Store
+
+# turborepo 
+.cache
+.turbo
+
+# pnpm 
+pnpm-debug.log*
+
+# umi
+.umi
+.umi-production
+.umi-test
+
+# dumi
+.dumi
+
+# ci
+ci
+
+# env
+.env.local
