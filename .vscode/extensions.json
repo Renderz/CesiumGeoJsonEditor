@@ -1,10 +1,3 @@
 {
-  "recommendations": [
-    // VSCode 的 ESLint 环境
-    "dbaeumer.vscode-eslint",
-    // VSCode 的 Pretter 环境
-    "esbenp.prettier-vscode",
-    // VSCode 的 Stylelint 环境
-    "stylelint.vscode-stylelint"
-  ]
+  "recommendations": ["biomejs.biome"]
 }

@@ -1,48 +1,40 @@
 {
-  "name": "cesium-geojson-editor",
-  "version": "0.0.1",
+  "author": {
+    "email": "464816158@qq.com",
+    "name": "Renderz",
+    "url": "https://github.com/Renderz"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.3.0",
+    "ahooks": "^3.9.6",
+    "lodash-es": "^4.17.21",
+    "unstated-next": "^1.1.0"
+  },
   "description": "GeoJSON Editor based on Cesium",
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.7",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "dumi": "^2.4.21",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "typescript": "^5.9.3",
+    "umi-cesium-plugin": "^1.0.6"
+  },
+  "engines": {
+    "node": "20",
+    "pnpm": "10.1.0"
+  },
   "keywords": [
     "cesium",
     "geojson",
     "editor",
     "tianditu"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Renderz/CesiumGeoJsonEditor"
-  },
   "license": "MIT",
-  "author": {
-    "name": "Renderz",
-    "email": "464816158@qq.com",
-    "url": "https://github.com/Renderz"
-  },
   "main": "index.js",
-  "scripts": {
-    "prepare": "husky"
-  },
-  "dependencies": {
-    "@turf/turf": "^7.3.0",
-    "ahooks": "^3.9.6",
-    "lodash-es": "^4.17.21"
-  },
-  "devDependencies": {
-    "@types/react": "^19.2.6",
-    "@types/react-dom": "^19.2.3",
-    "@umijs/lint": "^4.5.3",
-    "dumi": "^2.4.21",
-    "eslint": "^8.57.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.2.7",
-    "prettier": "^3.6.2",
-    "prettier-plugin-css-order": "^2.1.2",
-    "prettier-plugin-organize-imports": "^4.3.0",
-    "prettier-plugin-packagejson": "^2.5.19",
-    "stylelint": "^15.11.0",
-    "typescript": "^5.9.3",
-    "umi-cesium-plugin": "^1.0.6"
-  },
+  "name": "cesium-geojson-editor",
+  "packageManager": "pnpm@10.1.0",
   "peerDependencies": {
     "antd": ">=5.0.0",
     "cesium": ">=1.0.0",
@@ -50,9 +42,17 @@
     "react-dom": ">=16.9.0",
     "resium": ">=1.0.0"
   },
-  "packageManager": "pnpm@10.1.0",
-  "engines": {
-    "node": "20",
-    "pnpm": "10.1.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Renderz/CesiumGeoJsonEditor"
+  },
+  "scripts": {
+    "build": "father build",
+    "lint": "biome check --write .",
+    "prepare": "husky && dumi setup",
+    "start": "dumi dev",
+    "tsc": "tsc --noEmit"
+  },
+  "type": "module",
+  "version": "0.0.1"
 }
