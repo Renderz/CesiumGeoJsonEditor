@@ -1,7 +1,5 @@
 # common
 node_modules
-*/dist
-dist
 **.*.zip
 **.*.tar
 **.*.tar.gz
@@ -27,3 +25,9 @@ ci
 
 # env
 .env.local
+
+# dist
+*/dist
+dist
+es 
+lib

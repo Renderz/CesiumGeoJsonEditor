@@ -19,7 +19,9 @@
       "!**/dist",
       "!**/node_modules",
       "!.dumi/**/*",
-      "!biome.json"
+      "!biome.json",
+      "!es/**/*",
+      "!lib/**/*"
     ]
   },
   "formatter": {
